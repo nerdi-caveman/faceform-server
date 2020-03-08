@@ -1,0 +1,114 @@
+Thu Mar 05 2020 16:52:04 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 16:54:05 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 16:56:11 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 16:57:12 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 16:59:37 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:01:15 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:02:16 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:02:41 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:03:09 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:07:11 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:07:47 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:14:27 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:18:22 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:19:22 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:26:32 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:28:12 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: 403
+Thu Mar 05 2020 17:28:25 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 403: Id token not found
+Thu Mar 05 2020 17:28:33 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 403: Id token not found
+Thu Mar 05 2020 17:28:54 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:30:02 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:30:35 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: undefined
+Thu Mar 05 2020 17:32:52 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: Users validation failed: email: Path `email` is required., image_url: Path `image_url` is required.
+Thu Mar 05 2020 17:33:53 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: Users validation failed: email: Path `email` is required., image_url: Path `image_url` is required.
+Thu Mar 05 2020 20:00:36 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: Users validation failed: email: Path `email` is required., image_url: Path `image_url` is required.
+Thu Mar 05 2020 20:03:08 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: secretOrPrivateKey must have a value
+Thu Mar 05 2020 20:04:16 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: secretOrPrivateKey must have a value
+Thu Mar 05 2020 20:04:54 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: secretOrPrivateKey must have a value
+Thu Mar 05 2020 20:06:09 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: secretOrPrivateKey must have a value
+Thu Mar 05 2020 20:06:47 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: secretOrPrivateKey must have a value
+Thu Mar 05 2020 20:08:29 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: secretOrPrivateKey must have a value
+Thu Mar 05 2020 20:08:51 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: secretOrPrivateKey must have a value
+Thu Mar 05 2020 20:09:23 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: secretOrPrivateKey must have a value
+Thu Mar 05 2020 20:10:41 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: My_Believe_In_Go_is_Great is not defined
+Thu Mar 05 2020 20:11:21 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: Bad "options.expiresIn" option the payload already has an "exp" property.
+Thu Mar 05 2020 20:11:58 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: Bad "options.expiresIn" option the payload already has an "exp" property.
+Thu Mar 05 2020 20:14:56 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: secretOrPrivateKey must have a value
+Thu Mar 05 2020 20:16:26 GMT+0100 (West Africa Standard Time) (192.168.43.150) - status code 400: secretOrPrivateKey must have a value
+Thu Mar 05 2020 21:06:30 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Access Denied, provide an access_token in request header
+Thu Mar 05 2020 21:06:36 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Access Denied, provide an access_token in request header
+Thu Mar 05 2020 21:08:02 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Access Denied, provide an access_token in request header
+Thu Mar 05 2020 21:08:15 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Access Denied, provide an access_token in request header
+Thu Mar 05 2020 22:07:42 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Access Denied, provide an access_token in request header
+Thu Mar 05 2020 22:11:07 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Workspaces validation failed: form_id: Path `form_id` is required., name: Path `name` is required.
+Thu Mar 05 2020 22:11:09 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Workspaces validation failed: form_id: Path `form_id` is required., name: Path `name` is required.
+Thu Mar 05 2020 22:14:05 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Workspaces validation failed: form_id: Path `form_id` is required., name: Path `name` is required.
+Thu Mar 05 2020 22:14:38 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Workspaces validation failed: name: Path `name` is required.
+Thu Mar 05 2020 22:14:46 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Workspaces validation failed: name: Path `name` is required.
+Thu Mar 05 2020 22:15:21 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Workspaces validation failed: name: Path `name` is required.
+Thu Mar 05 2020 22:26:22 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: Cannot read property '_id' of undefined
+Thu Mar 05 2020 22:33:56 GMT+0100 (West Africa Standard Time) (172.17.229.129) - status code 400: utils.populate: invalid path. Expected string. Got typeof `object`
+Fri Mar 06 2020 09:11:22 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:11:40 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:11:47 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:12:04 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:12:27 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:12:28 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:12:35 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:12:56 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:13:00 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:13:12 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:13:22 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:13:27 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:13:31 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:13:50 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:13:57 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:14:10 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:14:16 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:14:21 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:14:23 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:14:33 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:14:41 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:15:17 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:15:24 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:15:27 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:15:41 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:15:44 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:15:58 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:16:07 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:16:11 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:16:12 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:20:39 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:20:51 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "5e61759a4055f1222ccc196" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:44:03 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Something wrong when updating data!
+Fri Mar 06 2020 09:44:03 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "{ _id: 'undefined', user_id: '5e614cebd327b042945dd889' }" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:44:12 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Something wrong when updating data!
+Fri Mar 06 2020 09:44:12 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "{ _id: 'undefined', user_id: '5e614cebd327b042945dd889' }" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:44:29 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Something wrong when updating data!
+Fri Mar 06 2020 09:44:29 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "{ _id: 'undefined', user_id: '5e614cebd327b042945dd889' }" at path "_id" for model "Forms"
+Fri Mar 06 2020 09:55:14 GMT+0100 (West Africa Standard Time) (192.168.8.241) - status code 400: Cast to ObjectId failed for value "abcdef" at path "_id" for model "Forms"
+Sun Mar 08 2020 12:33:52 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 12:34:36 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 12:35:06 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 12:35:32 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 12:36:26 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 12:36:55 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 12:37:17 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 12:38:04 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 12:38:21 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 12:39:10 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 12:39:22 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 12:39:37 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: workspace is not defined
+Sun Mar 08 2020 14:44:39 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "undefined" at path "_id" for model "Workspaces"
+Sun Mar 08 2020 14:44:47 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "undefined" at path "_id" for model "Workspaces"
+Sun Mar 08 2020 14:44:51 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "undefined" at path "_id" for model "Workspaces"
+Sun Mar 08 2020 15:30:32 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "5e64f4450718ca3ea0320ea6djdkd" at path "form_id" for model "Publish"
+Sun Mar 08 2020 15:30:37 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "5e64f4450718ca3ea0320ea6djdkd" at path "form_id" for model "Publish"
+Sun Mar 08 2020 15:31:23 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "5e64f4450718ca3ea0320ea6djd" at path "form_id" for model "Publish"
+Sun Mar 08 2020 15:31:39 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "5e64f4450718ca3ea0320ea6djd" at path "form_id" for model "Publish"
+Sun Mar 08 2020 15:31:42 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "5e64f4450718ca3ea0320ea6djd" at path "form_id" for model "Publish"
+Sun Mar 08 2020 15:32:11 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "5e64f4450718ca3ea0320ea6djd" at path "form_id" for model "Publish"
+Sun Mar 08 2020 15:33:41 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "5e64f4450718ca3ea0320ea6djd" at path "form_id" for model "Publish"
+Sun Mar 08 2020 16:41:45 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "undefined" at path "_id" for model "Workspaces"
+Sun Mar 08 2020 16:42:22 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 400: Cast to ObjectId failed for value "undefined" at path "_id" for model "Workspaces"
+Sun Mar 08 2020 16:42:27 GMT+0100 (West Africa Standard Time) (172.17.240.209) - status code 404: Workspace does not exist
