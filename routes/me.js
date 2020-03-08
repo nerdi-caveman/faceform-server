@@ -2,7 +2,7 @@ const router = require("express").Router();
 const jwt = require("jsonwebtoken");
 const error = require("../utils/errorHandler");
 const { authGoogleUser } = require("../utils/google");
-const { verify, sign } = require("../utils/jwt");
+const { verify } = require("../utils/jwt");
 
 // Mongoose models
 const User = require("../models/user");
