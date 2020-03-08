@@ -1,7 +1,5 @@
 const { OAuth2Client } = require("google-auth-library");
-const CLIENT_ID =
-  process.env.CLIENT_ID ||
-  "723845828891-kp7frfncrraifplnm633b19u6r3t9rro.apps.googleusercontent.com";
+const CLIENT_ID = process.env.CLIENT_ID;
 
 //   W57UdCuZEjARnAyZKzOIAhuF
 // https://oauth2.googleapis.com/tokeninfo?id_token=XYZ123
@@ -18,10 +16,10 @@ module.exports.authGoogleUser = async token => {
     const payload = ticket.getPayload();
     return {
       id: payload["sub"],
-      name:payload["name"],
-      image_url:payload["picture"],
-      exp:payload["exp"],
-      email:payload["email"],
+      name: payload["name"],
+      image_url: payload["picture"],
+      exp: payload["exp"],
+      email: payload["email"]
     };
   } catch (e) {
     console.warn(e.message);
