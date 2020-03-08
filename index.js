@@ -23,7 +23,7 @@ const DB_CONNECT =
   process.env.DB_CONNECT || "mongodb://localhost:27017/faceform";
 
 // Multi-process to utilize all CPU cores.
-if (!cluster.isMaster) {
+if (cluster.isMaster) {
   console.warn(`Node cluster master ${process.pid} is running`);
 
   // Fork workers
