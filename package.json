@@ -8,6 +8,9 @@
     "start:dev": "nodemon index.js",
     "test": "mocha __tests__/*.test.js --exit --timeout 5000"
   },
+  "engines": {
+    "node":"13.9.0"
+  },
   "author": "Inioluwa Sogelola",
   "license": "ISC",
   "dependencies": {
