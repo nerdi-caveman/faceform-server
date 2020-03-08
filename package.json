@@ -9,7 +9,7 @@
     "test": "mocha __tests__/*.test.js --exit --timeout 5000"
   },
   "engines": {
-    "node":"13.9.0"
+    "node": "13.9.0"
   },
   "author": "Inioluwa Sogelola",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "google-auth-library": "^5.10.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.2",
+    "opencollective-postinstall": "^2.0.2",
     "node-cron": "^2.0.3"
   },
   "devDependencies": {
