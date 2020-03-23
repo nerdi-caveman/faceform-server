@@ -7,12 +7,13 @@ const { verify } = require("../utils/jwt");
 // Mongoose models
 const User = require("../models/user");
 const Workspace = require("../models/workspace");
+const Result = require("../models/result");
 
 /**
  * Table of content
  * 1) Get request
  * 2) Post requests
- * 3) Put requests
+ * 3) Delete requests
  */
 
 // Get current user
@@ -37,6 +38,19 @@ router.get("/workspace", verify, async (req, res) => {
       populate: ["user_id", "template_id"]
     });
     res.send(workspace);
+  } catch (e) {
+    error.send(res, e.message);
+  }
+});
+
+// Get all users results of published
+router.get("/results/:form_id", verify, async (req, res) => {
+  try {
+    const result = await Result.find({
+      user_id: req.user._id,
+      form_id: req.params.form_id
+    }).populate(["form_id"]);
+    res.send(result);
   } catch (e) {
     error.send(res, e.message);
   }
@@ -70,7 +84,7 @@ router.post("/login", async (req, res) => {
       user = await userData.save();
     }
     // create and assign jwt
-    const token = jwt.sign({_id:user._id}, process.env.TOKEN_SECRET, {
+    const token = jwt.sign({ _id: user._id }, process.env.TOKEN_SECRET, {
       expiresIn: exp // default expires in 1 hour
     });
 
@@ -81,6 +95,30 @@ router.post("/login", async (req, res) => {
       email,
       image_url
     });
+  } catch (e) {
+    error.send(res, e.message);
+  }
+});
+
+// Get all users results of published
+router.delete("/results/:_id", verify, async (req, res) => {
+  try {
+    const result = await Result.findOneAndDelete({
+      user_id: req.user._id,
+      _id: req.params._id
+    });
+    await Workspace.findOne({
+      form_id: result.form_id
+    }).exec(async (err, doc) => {
+      if (!err) {
+        return await Workspace.findOneAndUpdate(
+          { form_id: result.form_id },
+          { response: (+doc.response - 1).toString() }
+        );
+      }
+    });
+
+    res.status(204).send(result);
   } catch (e) {
     error.send(res, e.message);
   }

@@ -5,7 +5,7 @@ const cluster = require("cluster");
 const numCPUs = require("os").cpus().length;
 const error = require("./utils/errorHandler");
 const cron = require("node-cron");
-const dotenv = require('dotenv');
+const dotenv = require("dotenv");
 dotenv.config();
 
 //Routes
@@ -68,6 +68,15 @@ if (cluster.isMaster) {
   app.use("/api/v1/form/", formRoute);
   app.use("/api/v1/publish/", publishRoute);
   app.use("/api/v1/result/", resultRoute);
+  app.get("clientid", (req, res) => {
+    // create and assign jwt
+    const CLIENT_ID = jwt.sign(
+      { client_id: process.env.TOKEN_SECRET },
+      process.env.TOKEN_SECRET
+    );
+    console.log(CLIENT_ID);
+    res.send(CLIENT_ID);
+  });
 
   const server = app.listen(PORT, "0.0.0.0", () => {
     console.log(

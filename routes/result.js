@@ -4,66 +4,62 @@ const { verify } = require("../utils/jwt");
 
 // Mongoose model
 const Result = require("../models/result");
+const Workspace = require("../models/workspace");
 
 /**
  * Table of content
- * 1) Get request
- * 2) Post requests
- * 3) Delete requests
+ * 1) Post requests
+ * 2) Delete requests
  */
 
-// Get all result data
-router.get("/:_id", verify, async (req, res) => {
+// Add result
+router.post("/add", async (req, res) => {
   try {
-    const result = await Result.find({
-      publish_id: req.params._id
+    const resultData = await Result.create(req.body);
+    await Workspace.findOne({
+      form_id: req.body.form_id
+    }).exec(async (err, doc) => {
+      if (!err) {
+        return await Workspace.findOneAndUpdate(
+          { form_id: req.body.form_id },
+          { response: (1 + +doc.response).toString() }
+        );
+      }
     });
 
-    if (!result) return res.status(404).send("result not found");
-    res.send(result);
+    const savedResult = await resultData.save();
+    res.status(201).send({
+      data: savedResult
+    });
+
   } catch (e) {
     error.send(res, e.message);
   }
 });
 
-// Add result
-router.post("/add", verify, async (req, res) => {
+// Update result
+router.put("/update/:_id", verify, async (req, res) => {
   try {
-    const resultData = await Result.create(req.body);
+    const resultData = await Result.findOneAndUpdate(
+      { _id: req.params._id, user_id: req.user._id },
+      req.body,
+      { new: true },
+      (err, doc) => {
+        if (err) {
+          error.send(res, "Something wrong when updating data!");
+        }
+      }
+    );
 
     const savedResult = await resultData.save();
 
-    res.status(201).send({
+    res.status(200).send({
       data: savedResult
     });
   } catch (e) {
     error.send(res, e.message);
   }
 });
-
-// // Add result
-// router.put("/update/:_id", async (req, res) => {
-//   try {
-//     const resultData = await Result.findOneAndUpdate(
-//       { _id: req.params._id },
-//       { $push: { items: res.body } },
-//       { new: true },
-//       (err, doc) => {
-//         if (err) {
-//           error.send(res, "Something wrong when updating data!");
-//         }
-//       }
-//     );
-
-//     const savedResult = await resultData.save();
-
-//     res.status(200).send({
-//       data: savedResult
-//     });
-//   } catch (e) {
-//     error.send(res, e.message);
-//   }
-// });
 
 // Delete workspace
 // router.delete("/delete/:_id", async (req, res) => {

@@ -15,7 +15,8 @@ const workspaceSchema = mongoose.Schema({
     ref: "Forms"
   },
   response: {
-    type:String
+    type: String,
+    default: "0"
   }
 });
 module.exports = mongoose.model("Workspaces", workspaceSchema);

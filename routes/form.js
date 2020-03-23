@@ -69,7 +69,7 @@ router.post("/add", verify, async (req, res) => {
 // update form
 router.put("/update/:_id", verify, async (req, res) => {
   try {
-    const form = await Form.findByIdAndUpdate(
+    const form = await Form.findOneAndUpdate(
       { _id: req.params._id, user_id: req.user._id },
       req.body,
       { new: true },

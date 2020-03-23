@@ -1,13 +1,24 @@
 const mongoose = require("mongoose");
-// Users.findOneAndUpdate({name: req.user.name}, {$push: {friends: friend}});
 const schema = mongoose.Schema({
   items: [
-    { question: { type: String, required: true }, answer: { type: String } }
+    {
+      question: { type: String, required: true },
+      answer: { type: String },
+      type: { type: String }
+    }
   ],
-  publish_id: {
+  form_id: {
     type: String || mongoose.Schema.Types.ObjectId,
     required: true,
-    ref: "Publish"
+    ref: "Forms"
+  },
+  user_id: {
+    type: String,
+    required: true
+  },
+  viewed: {
+    type: String,
+    default: "0"
   }
 });
 

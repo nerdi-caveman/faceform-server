@@ -6,6 +6,7 @@ const { verify } = require("../utils/jwt");
 const Workspace = require("../models/workspace");
 const Publish = require("../models/publish");
 const Form = require("../models/form");
+const Result = require("../models/result");
 
 /**
  * Table of content
@@ -101,12 +102,17 @@ router.delete("/delete/:_id", verify, async (req, res) => {
       user_id
     });
 
+    // Delete from results
+    await Result.deleteMany({
+      form_id: form_id,
+      user_id
+    });
+
     // Delete from form
     const form = await Form.deleteOne({
       _id: form_id,
       user_id
     });
-
     res.status(204).send(form);
   } catch (e) {
     error.send(res, e.message);
