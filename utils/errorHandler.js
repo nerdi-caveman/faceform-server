@@ -16,7 +16,7 @@ const errorHandler = () => {
    * Send error message to client and log to file path
    * @param  {object} response Express response object
    * @param  {string} error The error message
-   * @param  {number} code The error message
+   * @param  {number} code The status code
    * @param  {boolean} log Should log to a file path configured, default value is false
    * @author Inioluwa Sogelola
    */
